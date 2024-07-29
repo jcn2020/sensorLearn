@@ -1,0 +1,20 @@
+---
+name: "sayHelloRule"
+pack: sample_sensor_automation
+description: "Rule takein sayHelloTrigger and run action sayHello"
+enabled: true
+
+trigger: 
+  type: "sample_sensor_automation.sayHelloTrigger"
+  parameters: {}
+
+criteria: 
+  trigger.x:
+    type: "equals"
+    pattern: "XXXX"
+  
+# todo message: trigger.y
+action: 
+  ref: "sample_sensor_automation.sayHello" 
+  parameters:
+    message: "Message from rule"

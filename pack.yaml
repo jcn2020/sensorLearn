@@ -1,0 +1,12 @@
+--- 
+ref: sample_sensor_automation
+name: sample_sensor_automation
+description: sensor 
+keyworks:
+  - "st3"
+  - "works"
+  - "noplay"
+version: 256.256.256
+author: me
+email: me@email.com
+fgid: 0FFFF

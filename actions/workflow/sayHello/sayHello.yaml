@@ -1,0 +1,22 @@
+---
+version: 1.0
+description: > 
+  testing
+
+input: 
+  - message
+  - execution_id : <% ctx(st2).action_execution_id %>
+
+vars:
+  - temp_message: 'nil'
+
+output: 
+  - exec_id: <% ctx().execution_id %>
+  - result: <% task(say_hello_task).result.stdout %> 
+
+tasks:
+  say_hello_task:
+    action: core.echo
+    input:
+      message: <% ctx().message %>
+      

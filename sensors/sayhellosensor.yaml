@@ -1,0 +1,16 @@
+class_name: sayHelloSensorClass
+entry_point: sayHello_sensor.py
+description: >-
+  quick intro to Sensor
+enabled: true
+poll_interval: 60
+trigger_types:
+  - name: sayHelloTrigger
+    description: simple trigger  
+    payload_schema: 
+      type: object 
+      properties: 
+        x:
+          type: string 
+        y: 
+          type: string 
