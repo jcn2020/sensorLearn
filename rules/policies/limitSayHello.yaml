@@ -6,5 +6,5 @@ enabled: true
 resource_ref:  "sample_sensor_automation.sayHello"
 policy_type: action.concurrency
 parameters: 
-  action: cancel
-  threshold: 2 
+  action: delay
+  threshold: 1 
