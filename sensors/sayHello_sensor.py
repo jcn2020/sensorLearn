@@ -12,7 +12,7 @@ class sayHelloSensorClass(Sensor):
     def __init__(self, sensor_service, config):
         super(sayHelloSensorClass, self).__init__(sensor_service=sensor_service, config=config)
         self._logger = self.sensor_service.get_logger(name=self.__class__.__name__)
-        self._poll_interval = 60
+        self._poll_interval = 600
 
     def setup(self):
         pass
