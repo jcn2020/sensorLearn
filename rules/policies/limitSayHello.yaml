@@ -1,5 +1,5 @@
 ---
-name: sayHello_concurrency_limit
+name: sayHello.concurrency
 pack: sample_sensor_automation
 description: limit number of concurrent job run in sample_sensor_automation pack 
 enabled: true 
