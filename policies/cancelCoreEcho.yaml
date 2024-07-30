@@ -1,7 +1,7 @@
 ---
 name: coreEcho_cancel_concurrency 
-pack: core 
-description: Allow only 1 for each pack step
+# pack: core 
+description: Allow only 2 for each pack step
 enabled: true  
 resource_ref: core.echo 
 policy_type: action.concurrency 
