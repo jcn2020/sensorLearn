@@ -3,8 +3,8 @@ name: sayHello.concurrency
 pack: sample_sensor_automation
 description: limit number of concurrent job run in sample_sensor_automation pack 
 enabled: true 
-resource_ref:  "sample_sensor_automation.sayHello"
+resource_ref: sample_sensor_automation.sayHello
 policy_type: action.concurrency
 parameters: 
   action: delay
-  threshold: 1 
+  threshold: 2 
