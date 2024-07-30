@@ -16,7 +16,7 @@ output:
 
 tasks:
   say_hello_task:
-    action: core.echo
+    action: core.local
     input:
-      message: <% ctx().message %>
+      cmd: "echo <% ctx().message %> ; sleep 20"
       
