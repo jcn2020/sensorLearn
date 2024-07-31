@@ -1,0 +1,10 @@
+---
+name: coreLocal_cancel_concurrency 
+# pack: core 
+description: Allow only 1 for each pack step
+enabled: true  
+resource_ref: core.local
+policy_type: action.concurrency 
+parameters: 
+  action: cancel 
+  threshold: 1 
