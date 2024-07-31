@@ -7,4 +7,4 @@ resource_ref: core.local
 policy_type: action.concurrency 
 parameters: 
   action: cancel 
-  threshold: 1 
+  threshold: 2 
