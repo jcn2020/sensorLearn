@@ -17,4 +17,4 @@ criteria:
 action: 
   ref: "sample_sensor_automation.sayHello" 
   parameters:
-    message: "Message from rule"
+    message: "Message from rule {{ trigger.x }}"
