@@ -1,0 +1,18 @@
+---
+name: "checkStrInCoreEchoMsg.yaml 
+description: "perform post action if core echo message has a matched string" 
+enabled: true
+
+trigger: 
+  type: "core.st2.generic.actiontrigger"
+  parameters: {}
+
+criteria:
+  trigger.parameters.message:
+    type: "contains"
+    pattern: "James" 
+
+action: 
+  ref: "sample_sensor_automation.sayHello"
+  parameters:
+    message: "it's all cool" 
