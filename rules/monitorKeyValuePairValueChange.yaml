@@ -10,5 +10,5 @@ trigger:
 action: 
   ref: "sample_sensor_automation.sayHello"
   parameters:
-    message: "new value is {{st2kv.system.x}}"
+    message: "new value is {{st2kv.system.x | decrypt}}"
    
