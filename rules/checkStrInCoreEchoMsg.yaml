@@ -15,6 +15,6 @@ criteria:
 
 action: 
   ref: "sample_sensor_automation.sayHello"
-  parameters:
-    message: "it's all cool  " 
+  #parameters:
+    #message: "it's all cool  " 
 
