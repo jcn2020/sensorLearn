@@ -10,5 +10,5 @@ trigger:
 action: 
   ref: "sample_sensor_automation.sayHello"
   parameters:
-    message: "new value is {{trigger.object.value}}"
+    message: "new value is {{trigger.value}}"
    
