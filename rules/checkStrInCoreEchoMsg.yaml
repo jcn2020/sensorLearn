@@ -1,5 +1,5 @@
 ---
-name: "checkStrInCoreEchoMsg.yaml 
+name: "checkStrInCoreEchoMsg.yaml" 
 pack: sample_sensor_automation
 description: "perform post action if core echo message has a matched string" 
 enabled: true
