@@ -1,0 +1,8 @@
+---
+name: "remote_shell_cmd"
+# pack: "sensor_sample_automation" 
+action_ref: "core.remote"
+description: "Execute a command on a remote host via SSH"
+formats: 
+  - "run {{cmd}} on {{hosts}}"
+
