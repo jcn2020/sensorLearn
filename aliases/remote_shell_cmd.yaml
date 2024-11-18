@@ -4,5 +4,8 @@ name: "remote_shell_cmd"
 action_ref: "core.remote"
 description: "Execute a command on a remote host via SSH"
 formats: 
-  - "run {{cmd}} on {{hosts}}"
+  - "(run|execute) {{cmd}} on {{hosts}}"
+  - "run {{cmd}} on {{hosts=localhost}}"
 
+immutable_parameters:
+  hosts: localhost
