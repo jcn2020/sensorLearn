@@ -5,7 +5,7 @@ action_ref: "core.remote"
 description: "Execute a command on a remote host via SSH"
 formats: 
   - "(run|execute) {{cmd}} on {{hosts}}"
-  - "Please run {{cmd}}
+  - "Please run {{cmd}}"
 
 parameters:
   hosts: localhost
