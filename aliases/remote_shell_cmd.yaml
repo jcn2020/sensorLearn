@@ -9,8 +9,8 @@ formats:
   - "Just run me"
 
 immutable_parameters:
-  #hosts: "localhost"
-  #cmd: "date"
+  hosts: "localhost"
+  cmd: "date"
   timeout: 120
 
 
