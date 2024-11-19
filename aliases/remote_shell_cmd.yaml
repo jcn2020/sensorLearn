@@ -8,10 +8,10 @@ formats:
   - "Please run {{cmd=ls}}"
   - "Just run me"
 
-immutable_parameters:
-  hosts: "localhost"
-  cmd: "date"
-  timeout: 120
+#immutable_parameters:
+  #hosts: "localhost"
+  #cmd: "date"
+  #timeout: 120
 
 
 # this is not part of the schema 
