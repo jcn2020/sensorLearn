@@ -9,10 +9,11 @@ formats:
   - "Just run me"
 
 immutable_parameters:
-  hosts: "localhost"
-  cmd: "date"
+  #hosts: "localhost"
+  #cmd: "date"
   timeout: 120
 
 
-#immutable_parameters:
+# this is not part of the schema 
+#parameters:
   #hosts: localhost
