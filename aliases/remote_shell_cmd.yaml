@@ -8,10 +8,9 @@ formats:
   - "Please run {{cmd}}"
 
 parameters:
-  hosts: localhost
-  cmd: date
+  hosts: "localhost"
+  cmd: "date"
   timeout: 120
-
 
 
 #immutable_parameters:
