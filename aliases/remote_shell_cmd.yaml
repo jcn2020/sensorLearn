@@ -6,8 +6,9 @@ description: "Execute a command on a remote host via SSH"
 formats: 
   - "(run|execute) {{cmd}} on {{hosts}}"
   - "Please run {{cmd}}"
+  - "Just run me"
 
-parameters:
+immutable_parameters:
   hosts: "localhost"
   cmd: "date"
   timeout: 120
