@@ -9,7 +9,7 @@ formats:
   - "Just run me"
 
 ack:
-  enabled: tru
+  enabled: true
 
 result:
   format: "action completed! {~} {{execution.result}}"
