@@ -8,6 +8,9 @@ formats:
   - "Please run {{cmd=ls}}"
   - "Just run me"
 
+result:
+  format: "action completed! {~} {{execution.result}}"
+
 #immutable_parameters:
   #hosts: "localhost"
   #cmd: "date"
