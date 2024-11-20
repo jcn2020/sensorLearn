@@ -8,6 +8,9 @@ formats:
   - "Please run {{cmd=ls}}"
   - "Just run me"
 
+ack:
+  enabled: tru
+
 result:
   format: "action completed! {~} {{execution.result}}"
 
