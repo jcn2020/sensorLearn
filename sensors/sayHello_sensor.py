@@ -19,6 +19,7 @@ class sayHelloSensorClass(Sensor):
 
     def run(self):
         self._logger.debug("sayHelloSensorClass dispatching trigger-instance")
+        self._logger.info("_logger.info - start") 
         payload = {}
         payload['x'] = "XXXX"
         payload['y'] = "YYYY"
